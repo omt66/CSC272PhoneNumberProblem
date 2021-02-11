@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package omt.csc272phonenumberproblem20210210;
 
 /**
@@ -14,9 +9,13 @@ public class SolutionWithForLoop {
     public static void main(String[] args) {
         System.out.println("--- Phone Number Problem (using for loops) ---");
         showAllWordsForPhoneNumber("2349876");
-//        showAllWordsForPhoneNumber("234");
     }
 
+    /**
+     * This is a naive solution with for loops (not recommended)
+     * 
+     * @param phoneNumber 
+     */
     static void showAllWordsForPhoneNumber(String phoneNumber) {
         System.out.println("Phone number is " + phoneNumber);
         String[] numStrs = phoneNumber.split("");
